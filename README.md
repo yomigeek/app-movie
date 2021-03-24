@@ -4,6 +4,7 @@ the access to list of series and movies.
 
 ### Hosted Url
 Heroku hosted link: https://demo-stream-app.herokuapp.com/
+Loom video: https://www.loom.com/share/40959560743e4a2897767e7fb0c5319f
 
 
 ### Features
@@ -25,6 +26,12 @@ Heroku hosted link: https://demo-stream-app.herokuapp.com/
 - Navigate into the newly created folder and install the dependencies using your command line: ```cd folder_name && npm install```
 - Start the app in the development environment by using ```npm run dev``` and for production use ```npm run start```
 - Make a ```GET``` request to ```http://localhost:3000``` or go to your browser and use the url ```http://localhost:3000```
+
+### Pages
+- Home Page: http://localhost:3000 or http://localhost:3000/home
+- Series Page: http://localhost:3000/series
+- Movies Page: http://localhost:3000/movies
+
 
 ### Questions:
 

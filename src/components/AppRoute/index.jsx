@@ -33,7 +33,7 @@ const AppRoute = (props) => {
   }
 
   return (
-    <Container titleBarText={titleBarText}>
+    <Container titleBarText={titleBarText} >
       <Route {...rest} render={renderComponent(Component)} />
     </Container>
   );

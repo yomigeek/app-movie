@@ -13,6 +13,12 @@ export const landingRoutes = [
   },
   {
     type: Route,
+    path: "/home",
+    component: Home,
+    exact: true,
+  },
+  {
+    type: Route,
     path: "/series",
     component: Series,
     exact: true,
