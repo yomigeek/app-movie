@@ -1,5 +1,5 @@
 import React from "react";
-import { Route } from 'react-router-dom';
+import {Route} from "react-router-dom";
 import Container from "../common/Container";
 
 /**
@@ -19,9 +19,21 @@ const renderComponent = (Component) => (props) => {
  */
 const AppRoute = (props) => {
   const {component: Component, ...rest} = props;
+  const {path} = props;
+
+  let titleBarText = "Titles";
+  if (path === "/series") {
+    titleBarText = "Series";
+  }
+  if (path === "/movies") {
+    titleBarText = "Movies";
+  }
+  if (path === "*") {
+    titleBarText = "none";
+  }
 
   return (
-    <Container>
+    <Container titleBarText={titleBarText}>
       <Route {...rest} render={renderComponent(Component)} />
     </Container>
   );

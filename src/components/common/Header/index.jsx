@@ -1,14 +1,14 @@
 import React from "react";
 import {HeaderBox, HeaderTitle, HeaderMenu} from "./styles";
 
-const Header = ({title, buttonText, children}) => {
+const Header = ({title, children}) => {
   return (
     <>
       <HeaderBox>
-        <HeaderTitle>{title}</HeaderTitle>
-        <HeaderMenu>
-            {children}
-        </HeaderMenu>
+        <HeaderTitle onClick={() => (window.location.href = "/")}>
+          {title}
+        </HeaderTitle>
+        <HeaderMenu>{children}</HeaderMenu>
       </HeaderBox>
     </>
   );

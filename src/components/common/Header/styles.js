@@ -5,6 +5,7 @@ export const HeaderBox = styled.div`
   background-color: #0086fb;
   display: flex;
   padding: 20px 25px;
+  cursor: pointer;
 `;
 
 export const HeaderTitle = styled.div`

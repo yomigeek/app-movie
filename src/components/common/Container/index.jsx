@@ -5,14 +5,18 @@ import SubHeader from "../SubHeader";
 import Footer from "../Footer";
 import {NavText} from "./styles";
 
-const Container = ({children}) => {
+const Container = ({titleBarText, children}) => {
   return (
     <>
       <Header title="Demo Streaming">
         <NavText>Log In</NavText>
         <Button text="Start your free trial" />
       </Header>
-      <SubHeader text="Popular Title" />
+      {titleBarText !== "none" ? (
+        <SubHeader text={`Popular ${titleBarText}`} />
+      ) : (
+        ""
+      )}
       {children}
       <Footer />
     </>

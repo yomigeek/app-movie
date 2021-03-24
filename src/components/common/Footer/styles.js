@@ -6,19 +6,21 @@ export const FooterBox = styled.div`
   display: flex;
   flex-direction: column;
   padding: 20px 45px;
-  margin-top: 10%;
+  margin-top: 30%;
   color: #fff;
+  bottom: 0;
+  width: 100%;
 `;
 
 export const FooterLinkText = styled.div`
   display: flex;
   flex-wrap: wrap;
-  color: #A8ACAC;
+  color: #a8acac;
   font-size: 15px;
   margin: 5px 2% 30px;
   a {
     text-decoration: none;
-    color: #A8ACAC;
+    color: #a8acac;
     margin: 10px 15px;
   }
   span {
@@ -27,7 +29,7 @@ export const FooterLinkText = styled.div`
 `;
 
 export const CopyrightText = styled.div`
-  color: #A2A39E;
+  color: #a2a39e;
   font-size: 15px;
   margin: 1px 3% 70px;
 `;

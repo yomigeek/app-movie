@@ -11,12 +11,19 @@ export const TilesWrapper = styled.span`
     margin-right: 30px;
     margin-bottom: 20px;
     span {
-        margin-top: 10px;
+      margin-top: 10px;
+      max-width: 150px;
+      font-size: 14px;
+      display: block;
     }
     img {
-        width: 100%;
-        height: 250px;
+      width: 150px;
+      height: 200px;
     }
     cursor: pointer;
   }
+`;
+
+export const MoreWrapper = styled.div`
+  text-align: center;
 `;

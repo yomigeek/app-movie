@@ -7,7 +7,7 @@ import PlayStore from "../../../assets/images/play-store.svg";
 import WindowStore from "../../../assets/images/windows-store.svg";
 import {FooterBox, FooterSocial, FooterLinkText, CopyrightText} from "./styles";
 
-const Footer = ({socialIcons, downloadIcons, children}) => {
+const Footer = ({socialIcons, downloadIcons}) => {
   const defualtSocialIcons = [
     {id: "1", url: "#", iconImg: FacebookWhite},
     {id: "2", url: "#", iconImg: InstagramWhite},
@@ -53,14 +53,14 @@ const Footer = ({socialIcons, downloadIcons, children}) => {
               ? socialIcons.map((icon) => {
                   return (
                     <a href={icon.url} key={icon.id}>
-                      <img src={icon.iconImg} />
+                      <img src={icon.iconImg} alt="img"/>
                     </a>
                   );
                 })
               : defualtSocialIcons.map((icon) => {
                   return (
                     <a href={icon.url} key={icon.id}>
-                      <img src={icon.iconImg} />
+                      <img src={icon.iconImg} alt="img"/>
                     </a>
                   );
                 })}
@@ -69,15 +69,15 @@ const Footer = ({socialIcons, downloadIcons, children}) => {
             {downloadIcons
               ? downloadIcons.map((icon) => {
                   return (
-                    <a href={icon.url}>
-                      <img src={icon.iconImg} key={icon.id} />
+                    <a href={icon.url} key={icon.id}>
+                      <img src={icon.iconImg} alt="img"/>
                     </a>
                   );
                 })
               : defualtDownloadIcons.map((icon) => {
                   return (
-                    <a href={icon.url}>
-                      <img src={icon.iconImg} key={icon.id} />
+                    <a href={icon.url} key={icon.id}>
+                      <img src={icon.iconImg} alt="img"/>
                     </a>
                   );
                 })}

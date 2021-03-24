@@ -1,10 +1,10 @@
 import React from "react";
 import {PrimaryButton} from "./styles";
 
-const Button = ({text}) => {
+const Button = ({text, clickAction}) => {
   return (
     <>
-      <PrimaryButton>{text}</PrimaryButton>
+      <PrimaryButton onClick={clickAction}>{text}</PrimaryButton>
     </>
   );
 };
