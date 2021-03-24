@@ -3,8 +3,8 @@ A Movies/Series Listing Application is a React Powered Client-side application t
 the access to list of series and movies.
 
 ### Hosted Url
-Heroku hosted link: https://demo-stream-app.herokuapp.com/
-Loom video: https://www.loom.com/share/40959560743e4a2897767e7fb0c5319f
+- Heroku hosted link: https://demo-stream-app.herokuapp.com/
+- Loom video: https://www.loom.com/share/40959560743e4a2897767e7fb0c5319f
 
 
 ### Features
