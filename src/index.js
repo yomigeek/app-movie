@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {HashRouter as Router} from "react-router-dom";
+import {BrowserRouter as Router} from "react-router-dom";
 import "./assets/styles/index.css";
 import App from "./components/App";
 
