@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
-export const NavText = styled.span`
-  color: #fff;
+export const TilesWrapper = styled.span`
   padding: 10px;
-  font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+  div {
+    display: flex;
+    flex-direction: column;
+  }
 `;

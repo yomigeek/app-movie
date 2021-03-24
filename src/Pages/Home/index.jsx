@@ -1,19 +1,19 @@
 import React from "react";
-import Header from "../../components/common/Header";
-import Button from "../../components/common/Button";
-import SubHeader from "../../components/common/SubHeader";
-import Footer from "../../components/common/Footer";
-import {NavText} from "./styles";
+import MovieTile from "../../assets/images/movie-tile.jpg";
+import SeriesTile from "../../assets/images/series-tile.jpg";
 
 const Home = () => {
+    const tiles = [
+        {id: "1t", url: "#", iconImg: MovieTile},
+        {id: "2t", url: "#", iconImg: SeriesTile},
+      ];
   return (
     <>
-      <Header title="Demo Streaming">
-        <NavText>Log In</NavText>
-        <Button text="Start your free trial" />
-      </Header>
-      <SubHeader text="Popular Title" />
-      <Footer />
+    {tiles.map((tile) => {
+        return <div></div>
+    })
+
+    }
     </>
   );
 };

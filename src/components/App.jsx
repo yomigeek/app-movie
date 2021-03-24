@@ -1,11 +1,12 @@
 import React from "react";
-import {Switch, Route} from "react-router-dom";
+import {Switch} from "react-router-dom";
+import AppRoute from "../components/AppRoute";
 import {landingRoutes} from "../utils/routes";
 
 const App = () => (
   <Switch>
     {landingRoutes.map((route, index) => (
-      <Route
+      <AppRoute
         key={index}
         exact={route.exact}
         path={route.path}

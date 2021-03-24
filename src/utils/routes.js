@@ -17,36 +17,6 @@ export const landingRoutes = [
   },
   {
     type: Route,
-    path: '/main',
-    component: Main,
-    exact: true,
-  },
-  {
-    type: Route,
-    path: '/login',
-    component: Login,
-    exact: true,
-  },
-  {
-    type: Route,
-    path: '/compare',
-    component: CompareBoard,
-    exact: true,
-  },
-  {
-    type: Route,
-    path: '/history',
-    component: History,
-    exact: true,
-  },
-  {
-    type: Route,
-    path: '/compare/result',
-    component: ResultPage,
-    exact: true,
-  },
-  {
-    type: Route,
     path: '*',
     component: NotFound,
   },

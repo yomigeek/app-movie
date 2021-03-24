@@ -55,21 +55,3 @@ export const FooterSocial = styled.div`
     }
   }
 `;
-
-export const HeaderTitle = styled.div`
-  color: #fff;
-  font-weight: 600;
-  font-size: 25px;
-  display: flex;
-  width: 50%;
-  margin-left: 5%;
-`;
-
-export const HeaderMenu = styled.div`
-  display: flex;
-  width: 50%;
-  justify-content: flex-end;
-  * {
-    margin-right: 15px;
-  }
-`;
