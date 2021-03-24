@@ -6,7 +6,6 @@ import Footer from "../../components/common/Footer";
 import {NavText} from "./styles";
 
 const Home = () => {
-  const socialIcons = [{id: "", url: "", iconImg: ""}];
   return (
     <>
       <Header title="Demo Streaming">
@@ -14,7 +13,7 @@ const Home = () => {
         <Button text="Start your free trial" />
       </Header>
       <SubHeader text="Popular Title" />
-      <Footer socialIcons={socialIcons} />
+      <Footer />
     </>
   );
 };
