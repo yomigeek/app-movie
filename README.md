@@ -32,9 +32,9 @@ https://www.loom.com/share/40959560743e4a2897767e7fb0c5319f
 
 
 ### Pages
-- Home Page: http://localhost:3000 or http://localhost:3000/home
-- Series Page: http://localhost:3000/series
-- Movies Page: http://localhost:3000/movies
+- Home Page: ```/``` or ```/home```
+- Series Page: ```/series```
+- Movies Page: ```/movies```
 
 
 ### Questions:
