@@ -9,7 +9,6 @@ the access to list of series and movies.
 
 https://www.loom.com/share/40959560743e4a2897767e7fb0c5319f
 
-
 ### Features
 
 ###### App Features
