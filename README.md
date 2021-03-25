@@ -28,6 +28,7 @@ https://www.loom.com/share/40959560743e4a2897767e7fb0c5319f
 - Navigate into the newly created folder and install the dependencies using your command line: ```cd folder_name && npm install```
 - Start the app in the development environment by using ```npm run dev``` and for production use ```npm run start```
 - Make a ```GET``` request to ```http://localhost:3000``` or go to your browser and use the url ```http://localhost:3000```
+- Create an .env file in your root folder using the detail in the .env.example file and updating the variables values.
 
 
 ### Pages
